@@ -1,29 +1,14 @@
 const express = require('express');
 const router = express.Router();
+const reservationController = require('../controllers/reservationController');
 
-// GET /api/reservations
-router.get('/', (req, res) => {
-  res.status(200).json({ message: 'Get all reservations placeholder' });
-});
+// JOIN endpoint: reservations with player name and court name
+router.get('/details', reservationController.getReservationsWithDetails);
 
-// GET /api/reservations/details (JOIN endpoint)
-router.get('/details', (req, res) => {
-  res.status(200).json({ message: 'Get reservations with details placeholder' });
-});
-
-// GET /api/reservations/:id
-router.get('/:id', (req, res) => {
-  res.status(200).json({ message: `Get reservation ${req.params.id} placeholder` });
-});
-
-// POST /api/reservations
-router.post('/', (req, res) => {
-  res.status(201).json({ message: 'Create reservation placeholder' });
-});
-
-// DELETE /api/reservations/:id
-router.delete('/:id', (req, res) => {
-  res.status(200).json({ message: `Cancel reservation ${req.params.id} placeholder` });
-});
+// Reservation CRUD
+router.get('/', reservationController.getAllReservations);
+router.get('/:id', reservationController.getReservationById);
+router.post('/', reservationController.createReservation);
+router.delete('/:id', reservationController.deleteReservation);
 
 module.exports = router;

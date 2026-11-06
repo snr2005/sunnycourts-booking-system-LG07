@@ -1,19 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const playerController = require('../controllers/playerController');
 
-// GET /api/players
-router.get('/', (req, res) => {
-  res.status(200).json({ message: 'Get all players route placeholder' });
-});
-
-// GET /api/players/:id
-router.get('/:id', (req, res) => {
-  res.status(200).json({ message: `Get player ${req.params.id} placeholder` });
-});
-
-// POST /api/players
-router.post('/', (req, res) => {
-  res.status(201).json({ message: 'Create player placeholder' });
-});
+// Player endpoints
+router.get('/', playerController.getAllPlayers);
+router.get('/:id', playerController.getPlayerById);
+router.post('/', playerController.createPlayer);
 
 module.exports = router;
