@@ -16,8 +16,13 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/courts",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "courts"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "courts"
+              ]
             }
           }
         },
@@ -28,8 +33,13 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/courts?sport=Tennis",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "courts"],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "courts"
+              ],
               "query": [
                 {
                   "key": "sport",
@@ -46,8 +56,14 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/courts/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "courts", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "courts",
+                "1"
+              ]
             }
           }
         },
@@ -67,8 +83,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/courts",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "courts"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "courts"
+              ]
             }
           }
         },
@@ -88,8 +109,14 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/courts/6",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "courts", "6"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "courts",
+                "6"
+              ]
             }
           }
         },
@@ -100,8 +127,14 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/courts/6",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "courts", "6"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "courts",
+                "6"
+              ]
             }
           }
         }
@@ -117,8 +150,13 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/players",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "players"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "players"
+              ]
             }
           }
         },
@@ -129,8 +167,14 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/players/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "players", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "players",
+                "1"
+              ]
             }
           }
         },
@@ -150,8 +194,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/players",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "players"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "players"
+              ]
             }
           }
         }
@@ -167,8 +216,13 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/reservations",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations"
+              ]
             }
           }
         },
@@ -179,8 +233,14 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/reservations/details",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations", "details"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations",
+                "details"
+              ]
             }
           }
         },
@@ -191,8 +251,14 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/reservations/1",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations", "1"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations",
+                "1"
+              ]
             }
           }
         }
@@ -217,8 +283,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/reservations",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations"
+              ]
             }
           }
         },
@@ -238,8 +309,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/reservations",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations"
+              ]
             }
           }
         },
@@ -259,8 +335,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/reservations",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations"
+              ]
             }
           }
         },
@@ -280,8 +361,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/reservations",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations"
+              ]
             }
           }
         },
@@ -292,8 +378,14 @@
             "header": [],
             "url": {
               "raw": "{{baseUrl}}/api/reservations/3",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations", "3"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations",
+                "3"
+              ]
             }
           }
         },
@@ -313,8 +405,13 @@
             },
             "url": {
               "raw": "{{baseUrl}}/api/reservations",
-              "host": ["{{baseUrl}}"],
-              "path": ["api", "reservations"]
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "reservations"
+              ]
             }
           }
         }
