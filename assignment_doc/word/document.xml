@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+            xmlns:v="urn:schemas-microsoft-com:vml"
+            xmlns:o="urn:schemas-microsoft-com:office:office"
+            xmlns:w10="urn:schemas-microsoft-com:office:word">
+  <w:body>
+    <w:p><w:r><w:t>AURORA HEADER</w:t></w:r></w:p>
+    <w:p><w:r><w:t>LG Group Members: [List your group members here]</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Assignment Question</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="question" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId1"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:t>validation.js</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="validation" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId2"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:t>render.yaml</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="render_yaml" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId3"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:t>reservationController.js</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="reservationController" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId4"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:t>Successful reservation response</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="reservation_success" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId5"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:t>Twist rule failure response</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="twist_failure" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId6"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:t>Render health‑check response</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:shape id="render_health" type="#_x0000_t75" style="width:500pt;height:300pt"><v:imagedata r:id="rId7"/></v:shape></w:pict></w:r></w:p>
+    <w:p><w:r><w:br/></w:r></w:p>
+    <w:sectPr/>
+  </w:body>
+</w:document>
