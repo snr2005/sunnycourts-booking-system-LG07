@@ -93,7 +93,7 @@ npm run seed
   ```bash
   npm start
   ```
-The API is available at: `http://localhost:3000`
+The API is available at: `https://sunnycourts-booking-system-lg07.onrender.com/`
 
 ---
 
